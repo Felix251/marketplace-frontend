@@ -65,7 +65,7 @@ export function MainHeader() {
               <Link href="/signin">Connexion</Link>
             </Button>
             <Button asChild>
-              <Link href="/signup">Inscription</Link>
+              <Link href="/register">Inscription</Link>
             </Button>
           </div>
           <div className="md:hidden">
