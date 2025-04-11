@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image"
 
 const PopularShopsSection: React.FC = () => {
   const shops = [
@@ -43,11 +44,12 @@ const PopularShopsSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {shops.map((shop) => (
             <div key={shop.id} className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden">
-              <div className="aspect-w-16 aspect-h-9">
-                <img
+              <div className="aspect-w-16 aspect-h-9 relative">
+                <Image
                   src={shop.image}
                   alt={shop.name}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
               <div className="p-4">

@@ -58,7 +58,7 @@ export default function SignInPage() {
       <div className="w-full max-w-md">
         <Link href="/" className="mb-8 flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
           <ArrowLeft className="h-4 w-4" />
-          Retour à l'accueil
+          Retour à l&apos;accueil
         </Link>
         
         <Card className="border-blue-100 shadow-md">
@@ -162,9 +162,9 @@ export default function SignInPage() {
           
           <CardFooter className="flex flex-col items-center gap-2 bg-white rounded-b-lg border-t border-blue-100 pt-4">
             <div className="text-sm text-blue-500">
-              Vous n'avez pas de compte?{" "}
+              Vous n&apos;avez pas de compte?{" "}
               <Link href="/register" className="font-medium text-indigo-600 hover:text-indigo-800 underline-offset-4 hover:underline">
-                S'inscrire
+                S&apos;inscrire
               </Link>
             </div>
           </CardFooter>

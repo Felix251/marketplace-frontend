@@ -80,7 +80,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <Link href="/" className="mb-8 flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 transition-colors">
           <ArrowLeft className="h-4 w-4" />
-          Retour à l'accueil
+          Retour à l&apos;accueil
         </Link>
         
         <Card className="w-full max-w-md border-blue-100 shadow-md overflow-hidden">
@@ -190,9 +190,9 @@ export default function RegisterPage() {
                   className="text-indigo-600 border-blue-300 focus:ring-blue-200 mt-1"
                 />
                 <Label htmlFor="acceptTerms" className="text-sm text-blue-600 font-normal">
-                  J'accepte les{" "}
+                  J&apos;accepte les{" "}
                   <Link href="/terms" className="text-indigo-600 hover:text-indigo-800 font-medium hover:underline">
-                    conditions d'utilisation
+                    conditions d&apos;utilisation
                   </Link>{" "}
                   et la{" "}
                   <Link href="/privacy" className="text-indigo-600 hover:text-indigo-800 font-medium hover:underline">
