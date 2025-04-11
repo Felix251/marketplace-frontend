@@ -6,7 +6,7 @@ const FeaturedProductsSection: React.FC = () => {
       id: 1,
       name: 'Premium Wireless Headphones',
       price: 199.99,
-      image: '/products/headphones.jpg',
+      image: '/products/headphone.jpg',
       rating: 4.5,
       reviews: 120,
     },
